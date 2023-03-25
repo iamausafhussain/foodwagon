@@ -9,11 +9,13 @@ function Navbar() {
 		<div className="navbar-container">
 			<ul className="desktop-nav">
 				<li>
-					<img src={Logo} className="link-logo" />
+					<a href="https://iamausafhussain.netlify.app">
+						<img src={Logo} className="link-logo" />
+					</a>
 				</li>
 				<li>
 					<div className="user-location">
-						<p className="user-location-delivery">Deliver to: </p>
+						<p className="user-location-delivery">Deliver to:</p>
 						<LocationOnIcon className="mat-icon" />
 						<p className="user-location-current">Current Location</p>
 						<h4>Infocity, Bhubaneswar</h4>
@@ -21,7 +23,7 @@ function Navbar() {
 				</li>
 				<li>
 					<button className="login-button">
-						<PersonIcon className="mat-icon" />
+						<PersonIcon className="mat-icon-login" />
 						Login
 					</button>
 				</li>

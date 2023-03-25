@@ -41,6 +41,10 @@
 	margin-right: 3px;
 }
 
+.mat-icon-login {
+	margin-right: 3px;
+}
+
 .login-button {
 	display: flex;
 	align-items: center;
@@ -52,12 +56,13 @@
 	color: #ffa201;
 	font-size: 16px;
 	font-weight: 600;
-	border: none;
+	border: 1px solid #ffa20181;
 	border-radius: 4px;
 	background: none;
-	box-shadow: 1px 1px 1px 1px #ffa20181;
+	/* box-shadow: 1px 1px 1px 1px #ffa20181; */
 	transition: all 0.4s ease;
 }
 .login-button:hover {
-	transform: scale(1.03);
+	background: #ffa201;
+	color: white;
 }
